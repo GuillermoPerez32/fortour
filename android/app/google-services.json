@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "304703411541",
+    "project_id": "tour-2d9f4",
+    "storage_bucket": "tour-2d9f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304703411541:android:ab3b7b6c1356081a8b0bdc",
+        "android_client_info": {
+          "package_name": "com.example.fortour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304703411541-q15h2didbavaralo4fdm4pc83cb45cdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjy0NFSP0ZajR701W2nk_ojTY2xhk3nmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304703411541-q15h2didbavaralo4fdm4pc83cb45cdu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "304703411541-a0fejuba1kl8mu1ot1jiag4oi1cf8sj1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fortour"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
