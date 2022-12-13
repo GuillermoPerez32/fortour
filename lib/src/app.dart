@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
           shadowColor: Colors.transparent,
           titleTextStyle: TextStyle(
             fontSize: 30,
-            fontWeight: FontWeight.bold,
             color: Colors.black,
             fontFamily: 'Merriweather',
           ),
