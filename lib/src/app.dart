@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0XFF6A62B7),
         ),
+        fontFamily: 'Merriweather',
       ),
       initialRoute: WelcomePage.name,
       routes: routes,

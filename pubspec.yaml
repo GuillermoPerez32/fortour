@@ -25,16 +25,13 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/
+    - assets/images
   
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: Merriweahter
+      fonts:
+        - asset: fonts/Merriweahter-Regular.ttf
+        - asset: fonts/Merriweahter-Italic.ttf
+          style: italic
+        - asset: fonts/Merriweahter-Bold.ttf
+          weight: 600
