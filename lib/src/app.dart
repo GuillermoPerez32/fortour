@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:fortour/src/core/routes.dart';
 import 'package:fortour/src/ui/pages/welcome.dart';
 
@@ -14,6 +15,17 @@ class MyApp extends StatelessWidget {
           seedColor: const Color(0XFF6A62B7),
         ),
         fontFamily: 'Merriweather',
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          color: Colors.transparent,
+          shadowColor: Colors.transparent,
+          titleTextStyle: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+            fontFamily: 'Merriweather',
+          ),
+        ),
       ),
       initialRoute: WelcomePage.name,
       routes: routes,
