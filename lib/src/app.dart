@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         ),
         fontFamily: 'Merriweather',
         appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(color: Colors.black),
           centerTitle: true,
           color: Colors.transparent,
           shadowColor: Colors.transparent,
