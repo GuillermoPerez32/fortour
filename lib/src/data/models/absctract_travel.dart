@@ -7,6 +7,8 @@ abstract class ITravel {
   final int remaining;
   final int id;
   final String date;
+  final List<String> categories;
+
   ITravel({
     required this.description,
     required this.image,
@@ -15,5 +17,6 @@ abstract class ITravel {
     required this.title,
     required this.id,
     required this.date,
+    required this.categories,
   });
 }

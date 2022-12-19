@@ -9,5 +9,6 @@ class Travel extends ITravel {
     required super.title,
     required super.id,
     required super.date,
+    required super.categories,
   });
 }
