@@ -16,7 +16,9 @@ class TravelCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return InkWell(
-      onTap: () => Navigator.of(context).pushNamed(PlacePage.name),
+      onTap: () => Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => PlacePage(place: travel),
+      )),
       child: Container(
         width: small ? size.width * .4 : size.width * .8,
         height: small ? size.height * .2 : size.height * .4,
