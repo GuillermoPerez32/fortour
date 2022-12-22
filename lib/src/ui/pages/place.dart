@@ -14,8 +14,8 @@ class PlacePage extends StatelessWidget {
       body: Stack(
         children: [
           const _BackgroungImage(),
-          const _BottomSheet(),
           AppBar(),
+          const _BottomSheet(),
         ],
       ),
     );
