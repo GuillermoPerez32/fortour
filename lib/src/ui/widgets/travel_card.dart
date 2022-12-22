@@ -35,13 +35,13 @@ class TravelCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             Opacity(
-              opacity: .9,
+              opacity: .8,
               child: Container(
-                height: small ? 30 : 80,
+                height: small ? 30 : 60,
                 clipBehavior: Clip.antiAliasWithSaveLayer,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(small ? 5 : 20),
-                  color: const Color(0XFF6A62B7),
+                  color: Colors.black,
                 ),
                 child: Row(
                   children: [
