@@ -52,16 +52,16 @@ class _BottomSheet extends StatelessWidget {
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
+                    children: const [
+                      Text(
                         "Varadero Beach",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
                         ),
                       ),
-                      const SizedBox(height: 25),
-                      const Text(
+                      SizedBox(height: 25),
+                      Text(
                         "Descripción",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
@@ -70,8 +70,7 @@ class _BottomSheet extends StatelessWidget {
                       ),
                     ],
                   ),
-                  //TODO: Cambiar por el logo de la empresa
-                  FlutterLogo(
+                  const FlutterLogo(
                     size: 25,
                   )
                 ],
