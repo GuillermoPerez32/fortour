@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:fortour/src/core/routes.dart';
+import 'package:fortour/src/core/router.dart';
 import 'package:fortour/src/ui/pages/welcome.dart';
 
 class MyApp extends StatelessWidget {
@@ -8,7 +8,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
+      routerConfig: router,
       title: '4Tour',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
@@ -27,8 +28,6 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      initialRoute: WelcomePage.name,
-      routes: routes,
       debugShowCheckedModeBanner: false,
     );
   }

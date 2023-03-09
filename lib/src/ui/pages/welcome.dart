@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fortour/src/ui/pages/home.dart';
+import 'package:go_router/go_router.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -51,8 +52,7 @@ class WelcomePage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(left: 8.0),
                   child: ElevatedButton(
-                    onPressed: () =>
-                        Navigator.of(context).popAndPushNamed(HomePage.name),
+                    onPressed: () => context.go('/home'),
                     clipBehavior: Clip.antiAliasWithSaveLayer,
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(
