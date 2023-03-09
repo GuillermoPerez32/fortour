@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fortour/src/data/models/travel.dart';
+import 'package:fortour/src/data/models/travel/travel.dart';
 
 class PlacePage extends StatelessWidget {
   const PlacePage({super.key, required this.place});

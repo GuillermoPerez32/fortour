@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fortour/src/data/models/travel.dart';
+import 'package:fortour/src/data/models/travel/travel.dart';
 import 'package:fortour/src/ui/pages/place.dart';
 
 class TravelCard extends StatelessWidget {
@@ -28,7 +28,7 @@ class TravelCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(small ? 5 : 20),
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage(travel.image),
+            image: AssetImage(travel.image!),
           ),
         ),
         child: Column(
@@ -47,7 +47,7 @@ class TravelCard extends StatelessWidget {
                   children: [
                     const SizedBox(width: 10),
                     Text(
-                      travel.title,
+                      travel.title!,
                       style: TextStyle(
                         fontSize: small ? 11 : 20,
                         color: Colors.white,
