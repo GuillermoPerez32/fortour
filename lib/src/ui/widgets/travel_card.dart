@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fortour/src/data/models/travel/travel.dart';
 import 'package:fortour/src/ui/pages/place.dart';
+import 'package:go_router/go_router.dart';
 
 class TravelCard extends StatelessWidget {
   final Travel travel;
@@ -16,9 +17,7 @@ class TravelCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return InkWell(
-      onTap: () => Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => PlacePage(place: travel),
-      )),
+      onTap: () => context.go('/home/image', extra: travel),
       child: Container(
         width: small ? size.width * .4 : size.width * .8,
         height: small ? size.height * .2 : size.height * .4,
